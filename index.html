@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakkimulls | Authentic Himalayan Cashmere</title>
+    <meta name="description" content="Authentic Himalayan Cashmere. Loomed in Kasauli. Gifted in Vancouver. Heritage luxury from the same family for generations.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jakkimulls.com/">
+    <meta property="og:title" content="Jakkimulls | Authentic Himalayan Cashmere">
+    <meta property="og:description" content="Authentic Himalayan Cashmere. Loomed in Kasauli. Gifted in Vancouver. Heritage luxury from the same family for generations.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=630&fit=crop">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://jakkimulls.com/">
+    <meta name="twitter:title" content="Jakkimulls | Authentic Himalayan Cashmere">
+    <meta name="twitter:description" content="Authentic Himalayan Cashmere. Loomed in Kasauli. Gifted in Vancouver. Heritage luxury from the same family for generations.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=630&fit=crop">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: '#0f2e23',
+                        'forest-light': '#1a4a38',
+                        cream: '#f8f5f2',
+                        'cream-muted': '#e8e4e0',
+                        gold: '#c5a059',
+                        'gold-dark': '#a8883d',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'Georgia', 'serif'],
+                        sans: ['Lato', 'Helvetica', 'Arial', 'sans-serif'],
+                    },
+                    letterSpacing: {
+                        'extra-wide': '0.25em',
+                        'ultra-wide': '0.35em',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .hero-bg {
+            background-image: linear-gradient(to bottom, rgba(15, 46, 35, 0.7), rgba(15, 46, 35, 0.9)), 
+                              url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-bg {
+                background-attachment: scroll;
+            }
+        }
+    </style>
+</head>
+<body class="bg-forest text-cream font-sans antialiased">
+    
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-forest/90 backdrop-blur-sm">
+        <nav class="max-w-7xl mx-auto px-6 md:px-12 py-6 flex items-center justify-between" aria-label="Main navigation">
+            <a href="/" class="font-serif text-lg md:text-xl tracking-extra-wide text-cream hover:text-gold transition-colors duration-300" aria-label="Jakkimulls Home">
+                JAKKIMULLS
+            </a>
+            <span class="font-sans text-xs md:text-sm tracking-widest text-cream/60 uppercase">
+                Est. 1987
+            </span>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg min-h-screen flex items-center justify-center relative" aria-labelledby="hero-heading">
+            <div class="max-w-4xl mx-auto px-6 md:px-12 text-center pt-24 pb-16">
+                <h1 id="hero-heading" class="font-serif text-4xl md:text-6xl lg:text-7xl font-medium text-cream mb-8 leading-tight">
+                    The Weight of Heritage.
+                </h1>
+                <p class="font-sans text-base md:text-lg lg:text-xl text-cream/80 tracking-wide max-w-2xl mx-auto mb-12 leading-relaxed">
+                    Authentic Himalayan Cashmere. Loomed in Kasauli. Gifted in Vancouver.
+                </p>
+                <a 
+                    href="#contact" 
+                    class="inline-block bg-gold hover:bg-gold-dark text-forest font-sans font-bold text-sm tracking-widest uppercase px-10 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-gold/20 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-forest"
+                    aria-label="View our private catalogue"
+                >
+                    Private Catalogue
+                </a>
+            </div>
+            
+            <!-- Scroll indicator -->
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-hidden="true">
+                <i class="ph ph-caret-down text-2xl text-cream/40"></i>
+            </div>
+        </section>
+        
+        <!-- Trust Section -->
+        <section class="py-24 md:py-32 bg-forest" aria-labelledby="trust-heading">
+            <div class="max-w-6xl mx-auto px-6 md:px-12">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-20 items-start">
+                    <div>
+                        <h2 id="trust-heading" class="font-serif text-3xl md:text-4xl lg:text-5xl text-cream leading-tight">
+                            No Dropshipping.<br>
+                            <span class="text-gold">No Middlemen.</span>
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="font-sans text-base md:text-lg text-cream/70 leading-relaxed tracking-wide">
+                            Owned and operated by the same family for generations. We control the process from the goat to the gift box. This is tangible luxury meant for those who understand the difference.
+                        </p>
+                        <div class="mt-8 pt-8 border-t border-cream/10">
+                            <p class="font-sans text-sm text-cream/50 tracking-widest uppercase">
+                                Three generations of craftsmanship
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- WhatsApp Gateway Section -->
+        <section id="contact" class="py-24 md:py-32 bg-forest-light" aria-labelledby="contact-heading">
+            <div class="max-w-3xl mx-auto px-6 md:px-12 text-center">
+                <div class="bg-forest/50 border border-cream/10 p-10 md:p-16">
+                    <div class="mb-8">
+                        <i class="ph ph-seal-check text-5xl text-gold" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="contact-heading" class="font-serif text-2xl md:text-3xl lg:text-4xl text-cream mb-6 leading-tight">
+                        Reserved for Private Clients
+                    </h2>
+                    <p class="font-sans text-base md:text-lg text-cream/70 leading-relaxed tracking-wide mb-10 max-w-xl mx-auto">
+                        Our collection is reserved for private clients and corporate partners. Connect with us directly to view the current weave.
+                    </p>
+                    <a 
+                        href="https://wa.me/1234567890" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-3 bg-gold hover:bg-gold-dark text-forest font-sans font-bold text-sm tracking-widest uppercase px-10 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-gold/20 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-forest-light"
+                        aria-label="Chat with us on WhatsApp"
+                    >
+                        <i class="ph ph-whatsapp-logo text-xl" aria-hidden="true"></i>
+                        Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="py-12 bg-forest border-t border-cream/10">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <p class="font-sans text-sm text-cream/50 tracking-wide">
+                    &copy; 2024 Jakkimulls. All rights reserved.
+                </p>
+                <p class="font-sans text-sm text-cream/50 tracking-wide">
+                    Burnaby, BC <span class="text-gold mx-2">|</span> Kasauli, HP
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
